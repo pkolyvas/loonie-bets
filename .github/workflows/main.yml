@@ -1,0 +1,8 @@
+on:
+  pull_request:
+    types: [opened, reopened, edited]
+jobs:
+  build_for_review:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'A test'
