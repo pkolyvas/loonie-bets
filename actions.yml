@@ -1,0 +1,3 @@
+# PR Docker Build Acction
+name: 'pr_build'
+description: 'Build a docker image and deploy docker container for each PR'
