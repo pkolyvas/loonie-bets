@@ -5,4 +5,4 @@ jobs:
   build_for_review:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'A test'
+      - run: echo 'A test;'
